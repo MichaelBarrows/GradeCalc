@@ -1,0 +1,168 @@
+@import "foundation";
+@import "normalize";
+
+$white: #FFFFFF;
+$blue: #007684;
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  margin:5px;
+  h1 {
+    color: $blue;
+    font-size: 3em;
+    margin: 17px;
+    margin-left: 0;
+    a {
+      color: $blue;
+    }
+    a:hover {
+      color: $blue;
+      text-decoration: none;
+    }
+    a:visited {
+      color: $blue;
+      text-decoration: none;
+    }
+  }
+}
+
+//nav {
+//  ul {
+//    list-style-type: none;
+//    margin: 0;
+//    padding: 0;
+//    float: left;
+//    li {
+//      float: left;
+//      a {
+//        font-size: 1.2em;
+//        display: block;
+//        text-align: center;
+//        padding-left: 20px;
+//        padding-top: auto;
+//        padding-right: 20px;
+//        padding-bottom: auto;
+//        color: $blue;
+//      }
+//    }
+//  }
+//}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  color: $blue;
+  font-size: 1.7em;
+}
+
+.wg {
+  background-color: $blue;
+  color: $white;
+  display: none;
+  h3 {
+    color: $white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+h3 {
+  color: $blue;
+  font-size: 1.4em;
+}
+
+p {
+  margin: 5px;
+}
+
+.top-bar {
+  background-color: $blue;
+}
+.dropdown ul li a {
+  background-color: $blue;
+}
+
+
+.dropdown ul li:hover:not(.has-form) > a {
+  background-color: $white!important;
+  color: $blue;
+}
+
+
+.top-bar-section ul li {
+  background-color: $blue;
+}
+@media only screen and (min-width: 40.0625em) {
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background-color: $blue;
+}
+
+  .top-bar-section ul li:hover:not(.has-form) > a {
+    background-color: $white!important;
+    color: $blue;
+  }
+
+  .dropdown ul li:hover:not(.has-form) > a {
+    background-color: $white!important;
+    color: $blue;
+  }
+
+  .main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left:10px;
+    padding-right: 10px;
+    display: block;
+  }
+}
+
+.panel-about {
+  border: 3px solid $blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  .header {
+    background-color: $blue;
+    color: $white;
+    margin: 0;
+    padding: 5px;
+    h3 {
+      color: $white;
+      margin: 0;
+      font-size: 1.2em;
+    }
+  }
+  .body {
+    padding: 5px;
+  }
+}
+
+footer {
+  padding: 10px 0;
+  background-color: $blue;
+  margin-top: 500px;
+  color: $white;
+  .heading {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    font-size: 1.1em;
+  }
+  a:link, a:visited {
+    color: $white;
+    text-decoration: underline;
+  }
+}
+
+button, .button {
+  background-color: $blue;
+  border-color: $blue;
+  color: #FFFFFF;
+}
+
+.help-text {
+  display: none;
+}

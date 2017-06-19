@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule ^$ pages/index.php [L]
+RewriteRule ^module/$ pages/module.php [L]
+RewriteRule ^year/$ pages/year.php [L]
+RewriteRule ^about/$ pages/about.php [L]
