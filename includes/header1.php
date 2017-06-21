@@ -14,12 +14,13 @@
 <div class="row">
     <nav class="top-bar" data-topbar role="navigation">
         <section class="top-bar-section">
-            <ul class="right">
-                <li><a href="/about/">About</a></li>
-            </ul>
             <ul class="left">
+                <li><a href="/">Home</a></li>
                 <li><a href="/module/">Module Grade</a></li>
                 <li><a href="/year/">Year Grade</a></li>
+            </ul>
+            <ul class="right">
+                <li><a href="/about/">About</a></li>
             </ul>
         </section>
     </nav>

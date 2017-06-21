@@ -11,13 +11,13 @@
             <div class="small-12 large-8 columns text-center">
                 <form id="yearcalc" method="post">
                     <div class="row">
-                        <div class="small-12 large-4 columns">
+                        <div class="small-4 large-4 columns">
                             <p>Grade</p>
                         </div>
-                        <div class="small-12 large-4 columns">
+                        <div class="small-4 large-4 columns">
                             <p>Credits</p>
                         </div>
-                        <div class="small-12 large-4 columns">
+                        <div class="small-4 large-4 columns">
                             <p>Weighted Grade</p>
                         </div>
                     </div>
@@ -25,13 +25,13 @@
                         <div class="small-12 large-12 columns">
 
                             <div class="row">
-                                <div class="small-12 large-4 columns">
+                                <div class="small-4 large-4 columns">
                                     <input type="number" name="grade[]" required>
                                 </div>
-                                <div class="small-12 large-4 columns">
+                                <div class="small-4 large-4 columns">
                                     <input type="number" name="credit[]" required>
                                 </div>
-                                <div class="small-12 large-4 columns">
+                                <div class="small-4 large-4 columns">
                                     <p class="wg0">
 
                                     </p>
@@ -39,13 +39,13 @@
                             </div>
 
                             <div class="row">
-                                <div class="small-12 large-4 columns">
+                                <div class="small-4 large-4 columns">
                                     <input type="number" name="grade[]" required>
                                 </div>
-                                <div class="small-12 large-4 columns">
+                                <div class="small-4 large-4 columns">
                                     <input type="number" name="credit[]" required>
                                 </div>
-                                <div class="small-12 large-4 columns">
+                                <div class="small-4 large-4 columns">
                                     <p class="wg1">
 
                                     </p>
@@ -55,13 +55,13 @@
                             <?php
                             for ($idx = 2; $idx < 6; $idx++) { ?>
                                 <div class="row">
-                                    <div class="small-12 large-4 columns">
+                                    <div class="small-4 large-4 columns">
                                         <input type="number" name="grade[]">
                                     </div>
-                                    <div class="small-12 large-4 columns">
+                                    <div class="small-4 large-4 columns">
                                         <input type="number" name="credit[]">
                                     </div>
-                                    <div class="small-12 large-4 columns">
+                                    <div class="small-4 large-4 columns">
                                         <p class="wg<?php print $idx; ?>">
 
                                         </p>
