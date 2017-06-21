@@ -1,7 +1,6 @@
 <?php include('../includes/header.php'); ?>
     <title>Module Grade Calculator | Calculate your university module and year grades with ease! | GradeCalc</title>
     <meta name="title" content="Module Grade Calculator | Calculate your university module and year grades with ease! | GradeCalc"/>
-    <meta property="og:title" content="Module Grade Calculator | Calculate your university module and year grades with ease! | GradeCalc"/>
 <?php include('../includes/header1.php'); ?>
 
 <section class="main">
@@ -98,7 +97,7 @@
                 <li>Your grade for any assignment(s) you wish to calulate and</li>
                 <li>What percentage the assignment(s) were worth of the module (weighting)</li>
             </ul>
-            <p>This calculator will work out the weighted grade of the assignment for the module and add it with other weighted grades to reach a total</p>
+            <p>This calculator will work out the weighted grade(s) of the assignment(s) for the module and add them altogether to reach a total</p>
         </div>
 </section>
 

@@ -1,7 +1,6 @@
 <?php include('../includes/header.php'); ?>
     <title>About Grade Calculator | Calculate your university module and year grades with ease! | GradeCalc</title>
     <meta name="title" content="Grade Calculator | Calculate your university module and year grades with ease! | GradeCalc"/>
-    <meta property="og:title" content="Grade Calculator | Calculate your university module and year grades with ease! | GradeCalc"/>
 <?php include('../includes/header1.php'); ?>
 
     <section class="main">
@@ -19,12 +18,12 @@
                     </div>
                 </div>
             </div>
-            <div class="small-12 large-6 columns">
-                <p>This grade calculator was created to easily calculate average grades. Every effort has been made to ensure the accuracy of the calculations being performed, however you may encounter errors where numbers have been rounded to two decimal places.</p>
+            <div class="small-12 large-7 columns">
+                <p>This website was created to take the difficulty out of grade calculation and provide a simple way to estimate overall grades.</p>
+                <p>If there are any features you would like to see implemented, please get in touch using <a href="https://michaelbarrows.com/contact-me/">this</a> form.</p>
             </div>
-            <div class="small-12 large-6 columns">
-                <p>This website may produce a result that is within 1% of your actual result, this is due to numbers that cannot be cleanly divided by 100. The decision was taken to limit numbers being divided by 100 to two decimal places to ensure consistency.</p>
-                <p>Due to this issue, it may appear that elements of a module may total slightly more than 100%.</p>
+            <div class="small-12 large-5 columns">
+                <p>This calculator rounds values to two decimal places, and therefore may provide slight errors, and this should be taken into consideration when using this system.</p>
             </div>
         </div>
     </section>

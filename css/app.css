@@ -7901,4 +7901,14 @@ button, .button {
 .help-text {
   display: none; }
 
+.home-link {
+  border: 3px solid #007684;
+  margin: 5px;
+  padding: 5px;
+  text-align: center; }
+
+.home-list li {
+  list-style-type: none;
+  color: #007684; }
+
 /*# sourceMappingURL=app.css.map */

@@ -1,7 +1,6 @@
 <?php include('../includes/header.php'); ?>
     <title>Year Grade Calculator | Calculate your university module and year grades with ease! | GradeCalc</title>
     <meta name="title" content="Year Grade Calculator | Calculate your university module and year grades with ease! | GradeCalc"/>
-    <meta property="og:title" content="Year Grade Calculator | Calculate your university module and year grades with ease! | GradeCalc"/>
 <?php include('../includes/header1.php'); ?>
 
     <section class="main">

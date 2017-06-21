@@ -3,9 +3,6 @@
     <div class="small-12 large-6 columns text-justify">
         <p><strong>Please Note:</strong></p>
         <p>This website should be used as a guide only, it can only calculate average grades and may not reflect your institutions policies.</p>
-        <p class="heading">More calculators coming soon!</p>
-    </div>
-    <div class="small-12 large-6 columns">
     </div>
     <div class="small-12 large-3 columns">
         <p class="heading">University Calculators</p>
@@ -21,5 +18,8 @@
         <p>&copy; <a href="https://michaelbarrows.com">Michael Barrows</a> <?php echo date('Y'); ?></p>
     </div>
 </footer>
+<script>
+    $(document).foundation();
+</script>
 </body>
 </html>

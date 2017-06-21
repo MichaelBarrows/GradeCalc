@@ -166,3 +166,15 @@ button, .button {
 .help-text {
   display: none;
 }
+
+.home-link {
+  border: 3px solid $blue;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.home-list li {
+  list-style-type: none;
+  color: $blue;
+}

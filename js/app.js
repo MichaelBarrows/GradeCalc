@@ -139,4 +139,10 @@ $(document).ready(function(){
         var calc = new Calculator(wg);
         $(".wg").empty().append("<h3>Your grade is: <strong>" + calc.calculate() + '%</strong> (' + calc.classification() + ')</h3>').show(750);
     });
+    $('#home-module').click(function (event) {
+        window.location.assign("/module/")
+    });
+    $('#home-year').click(function (event) {
+        window.location.assign("/year/")
+    });
 });
