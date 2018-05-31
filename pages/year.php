@@ -26,7 +26,7 @@
 
                             <div class="row">
                                 <div class="small-4 large-4 columns">
-                                    <input type="number" name="grade[]" required>
+                                    <input type="text" name="grade[]" required>
                                 </div>
                                 <div class="small-4 large-4 columns">
                                     <input type="number" name="credit[]" required>
@@ -40,7 +40,7 @@
 
                             <div class="row">
                                 <div class="small-4 large-4 columns">
-                                    <input type="number" name="grade[]" required>
+                                    <input type="text" name="grade[]" required>
                                 </div>
                                 <div class="small-4 large-4 columns">
                                     <input type="number" name="credit[]" required>
@@ -53,10 +53,10 @@
                             </div>
 
                             <?php
-                            for ($idx = 2; $idx < 6; $idx++) { ?>
+                            for ($idx = 2; $idx < 8; $idx++) { ?>
                                 <div class="row">
                                     <div class="small-4 large-4 columns">
-                                        <input type="number" name="grade[]">
+                                        <input type="text" name="grade[]">
                                     </div>
                                     <div class="small-4 large-4 columns">
                                         <input type="number" name="credit[]">
