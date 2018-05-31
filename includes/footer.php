@@ -12,10 +12,10 @@
     <div class="small-12 large-3 columns">
         <p class="heading">Useful links</p>
         <p><a href="/about/">About this website</a></p>
-        <p><a href="https://michaelbarrows.com/contact-me/">Contact the author</a></p>
+        <p><a href="https://michaelbarrows.co.uk/#contact">Contact the author</a></p>
     </div>
     <div class="small-12 large-12 columns text-right">
-        <p>&copy; <a href="https://michaelbarrows.com">Michael Barrows</a> <?php echo date('Y'); ?></p>
+        <p>&copy; <a href="https://michaelbarrows.co.uk">Michael Barrows</a> <?php echo date('Y'); ?></p>
     </div>
 </footer>
 <script>
