@@ -20,7 +20,7 @@
             </div>
             <div class="small-12 large-7 columns">
                 <p>This website was created to take the difficulty out of grade calculation and provide a simple way to estimate overall grades.</p>
-                <p>If there are any features you would like to see implemented, please get in touch using <a href="https://michaelbarrows.com/contact-me/">this</a> form.</p>
+                <p>If there are any features you would like to see implemented, please get in touch using <a href="https://michaelbarrows.co.uk/#contact">this</a> form.</p>
             </div>
             <div class="small-12 large-5 columns">
                 <p>This calculator rounds values to two decimal places, and therefore may provide slight errors, and this should be taken into consideration when using this system.</p>
